@@ -1,6 +1,8 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 
 .header-box {
@@ -9,18 +11,25 @@
     background-color: #1F2937;
 }
 
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
 .header-container {
     display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    gap: 250px; /* Manual gap to align logo with hero text */
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    align-items: center;
 }
 
 ul {
     display: flex;
     list-style-type: none;
+    gap: 16px;
+    align-items: center;
 }
 
 a {
@@ -31,6 +40,12 @@ a {
 .header-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 32px;
+}
+
+.introduction {
+    width: 400px;
 }
 
 .hero-text {
@@ -49,5 +64,6 @@ a {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    width: 400px;
 }
 
