@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
 }
 
-.header-box {
+.introduction-box {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -15,7 +15,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     height: 50px;
-    gap: 250px; /* Manual gap to align logo with hero text */
+    background-color: #1F2937;
+    gap: 260px;
 }
 
 .header-logo {
@@ -37,7 +38,7 @@ a {
     color: #E5E7EB;
 }
 
-.header-content {
+.introduction-content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -55,7 +56,7 @@ a {
     color: #F9FAF8;
 }
 
-.header-subtext {
+.introduction-subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
