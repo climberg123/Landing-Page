@@ -78,3 +78,45 @@ button {
     width: 400px;
 }
 
+.information-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.information-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-placeholder {
+    box-sizing: border-box; /* Includes rounded border in initial box sizing */
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 3px;
+    border-radius: 15px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 90px;
+}
+
+.info-text > p {
+    width: 150px;
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
