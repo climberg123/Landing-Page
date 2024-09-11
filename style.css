@@ -120,3 +120,33 @@ button {
     margin-top: 5px;
     margin-bottom: 0px;
 }
+
+.testimonial-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.testimonial-box p {
+    margin: 0;
+}
+/* Real Scuffed Way to do this, but it works */
+
+#quote-text {
+    width: 700px;
+    margin-top: 70px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-source {
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+    margin-bottom: 55px;
+    font-size: 21px;
+    font-weight: 900
+}
