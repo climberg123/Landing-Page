@@ -11,7 +11,7 @@ body {
     background-color: #1F2937;
 }
 
-.header-container {
+.header-container, #footer-container {
     display: flex;
     justify-content: space-evenly;
     height: 50px;
@@ -180,4 +180,14 @@ button {
 #call-button {
     border-color: #E5E7EB;
     border: solid #E5E7EB 2px;
+}
+
+#footer-container {
+    padding: 20px;
+}
+
+#footer-container > p {
+    color: #E5E7EB;
+    font-size: 18px;
+    align-self: center;
 }
